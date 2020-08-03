@@ -1,9 +1,12 @@
 RSpec.describe RideSearcher do
-  it "has a version number" do
-    expect(RideSearcher::VERSION).not_to be nil
-  end
+  context "Initial spec" do
+    it "has a version number" do
+      expect(RideSearcher::VERSION).not_to be nil
+    end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+    it "Should response in hello method" do
+      response_message =  "Hello! I'm ride_searcher."
+      expect(RideSearcher::hello).to eq(response_message)
+    end
   end
 end
