@@ -5,6 +5,6 @@ module RideSearcher
   # Your code goes here...
 
   def self.hello
-    p "Hello! I'm ride_searcher."
+    "Hello! I'm ride_searcher."
   end
 end
